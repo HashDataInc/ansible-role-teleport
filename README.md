@@ -15,13 +15,13 @@ You will need to provide your own SSL certificate and key files. You can generat
 
 Available variables are listed below, along with default values (see `defaults/main.yml`):
 
-    teleport_version: "1.0.4"
-    teleport_ssl_cert_path: "/etc/teleport"
+    teleport_version: "2.2.7"
+    teleport_ssl_cert_path: "/data/teleport/etc/teleport"
     teleport_config_path: "/etc/teleport.yaml"
     teleport_nodename: "teleport"
     teleport_auth_servers:
         - 127.0.0.1:3025
-    teleport_data_dir: "/var/lib/teleport"
+    teleport_data_dir: "/data/teleport/data"
 
 Teleport stores the data locally under the `teleport_data_dir`.
 
