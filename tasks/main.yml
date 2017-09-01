@@ -11,7 +11,7 @@
 
 - name: Download teleport installer.
   get_url:
-    url: "https://github.com/gravitational/teleport/releases/download/v{{ teleport_version }}/teleport-v{{ teleport_version }}-linux-amd64-bin.tar.gz"
+    url: "https://pek3a.qingstor.com/hashdata-public/tools/centos7/teleport-v{{ teleport_version }}-linux-amd64-bin.tar.gz"
     dest: "/tmp/teleport-v{{ teleport_version }}-linux-amd64-bin.tar.gz"
     mode: 0755
   when: not teleport_bin.stat.exists
