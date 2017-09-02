@@ -96,7 +96,8 @@ For more details about teleport architecture, please refer to the [official docu
 
 *Inside `vars/main.yml`*
 
-    teleport_ssh_enabled: false
+    teleport_auth_enabled: true
+    teleport_proxy_enabled: true
     teleport_auth_tokens_node:
       - xxxx-yyyy-xxxx
 
